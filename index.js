@@ -1,3 +1,4 @@
+
 import  express  from "express";
 import {dirname, join} from "path"
 import {fileURLToPath} from "url";
@@ -15,6 +16,5 @@ app.use(express.static(join(__dirname,"public")));
 
 
 app.get ("/",(req,res)=>res.render("index"));
-
-console.log(__dirname);
-//  console.log("hola mundo")
+console.log(__dirname); 
+console.log(__dirname); 
